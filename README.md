@@ -53,7 +53,7 @@
 | -------- | ----- |
 | PAT |   此处**PAT**需要申请，值为github token，教程详见：https://www.jianshu.com/p/bb82b3ad1d11 ,需要repo和workflow权限,此项必填，避免git push的权限错误。 |
 
-**CONFIG**示例
+**CONFIG**示例如下:
 ```
 {
   "TG_BOT_TOKEN": "",
@@ -72,10 +72,16 @@
   "QWEATHER": "",
   "MIMOTION": [
     {
-      "max_step": "20000",
-      "min_step": "10000",
-      "password": "Sitoi",
-      "user": "18888xxxxxx"
+      "max_step": "25000",
+      "min_step": "20000",
+      "password": "账号1的密码",
+      "user": "111111xxx账号1"
+    },
+    {
+      "max_step": "30000",
+      "min_step": "25000",
+      "password": "账号2的密码",
+      "user": "122222xxx账号2"
     },
     {
       "max_step": "多账号 最大步数填写，请参考上面",
