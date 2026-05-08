@@ -11,7 +11,7 @@
 ## Github Actions 部署指南
 
 ### 一、Fork 此仓库
-
+![](https://cdn.jsdelivr.net/gh/wes-lin/Cloud189Checkin/image/fork.png)
 ### 二、设置账号密码
 # 20260508修改新增
 添加名为  **CONFIG**的变量: Settings-->Secrets-->New secret ,使用下面json模板配置多账户，支持邮箱,手机号
@@ -51,7 +51,7 @@
 
 | Secrets |  格式  |
 | -------- | ----- |
-| PAT |   此处**PAT**需要申请，值为申请到的github token秘钥，申请秘钥教程：点击右上角 GitHub 用户设置页面 最下方的 Developer setting ，然后选择 Personal access tokens 来生成一个 token，由于我们只需要能够对普通仓库 push 就行了，所以把 repo 部分勾上即可。[![Stargazers over time]([[https://starchart.cc/zhoudedi/xiaozhou-mi.svg](https://github.com/zhoudedi/xiaozhou-mi/blob/main/tp.webp))]([https://starchart.cc/zhoudedi/xiaozhou-mi](https://upload-images.jianshu.io/upload_images/4236091-1520d73e39fafe83.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp](https://github.com/zhoudedi/xiaozhou-mi/blob/main/tp.webp)))需要repo和workflow权限,此项必填，避免git push的权限错误。 |
+| PAT |   此处**PAT**需要申请，值为申请到的github token秘钥，申请秘钥教程：点击右上角 GitHub 用户设置页面 最下方的 Developer setting ，然后选择 Personal access tokens 来生成一个 token，由于我们只需要能够对普通仓库 push 就行了，所以把 repo 部分勾上即可。![]([https://cdn.jsdelivr.net/gh/wes-lin/Cloud189Checkin/image/fork.png](https://github.com/zhoudedi/xiaozhou-mi/blob/main/tp.webp))需要repo和workflow权限,此项必填，避免git push的权限错误。 |
 
 **CONFIG**示例如下:
 ```
