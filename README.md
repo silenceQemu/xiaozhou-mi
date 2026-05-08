@@ -51,7 +51,7 @@
 
 | Secrets |  格式  |
 | -------- | ----- |
-| PAT |   此处**PAT**需要申请，值为申请到的github token秘钥，申请秘钥教程：点击右上角 GitHub 用户设置页面 最下方的 Developer setting ，然后选择 Personal access tokens 来生成一个 token，由于我们只需要能够对普通仓库 push 就行了，所以把 repo 部分勾上即可。需要repo和workflow权限,此项必填，避免git push的权限错误。如图：![](https://github.com/zhoudedi/xiaozhou-mi/blob/main/tp.webp) |
+| PAT |   此处**PAT**需要申请，值为申请到的github token秘钥，申请秘钥教程：点击右上角 GitHub 用户设置页面 最下方的 Developer setting ，然后选择 Personal access tokens 来生成一个 token，由于我们只需要能够对普通仓库 push 就行了，所以把 repo 部分勾上即可。需要repo和workflow权限,此项必填，避免git push的权限错误。如图：![](https://github.com/zhoudedi/xiaozhou-mi/blob/main/tp.png) |
 
 **CONFIG**示例如下:
 ```
