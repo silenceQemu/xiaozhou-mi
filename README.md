@@ -51,7 +51,8 @@
 
 | Secrets |  格式  |
 | -------- | ----- |
-| PAT |   此处**PAT**需要申请，值为github token，教程详见：https://www.jianshu.com/p/bb82b3ad1d11 ,需要repo和workflow权限,此项必填，避免git push的权限错误。 |
+| PAT |   此处**PAT**需要申请，值为github token，教程点击右上角 GitHub 用户设置页面 最下方的 Developer setting ，然后选择 Personal access tokens 来生成一个 token，由于我们只需要能够对普通仓库 push 就行了，所以把 repo 部分勾上即可。
+[![Stargazers over time]([https://starchart.cc/zhoudedi/xiaozhou-mi.svg)](https://starchart.cc/zhoudedi/xiaozhou-mi](https://upload-images.jianshu.io/upload_images/4236091-1520d73e39fafe83.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp))需要repo和workflow权限,此项必填，避免git push的权限错误。 |
 
 **CONFIG**示例如下:
 ```
