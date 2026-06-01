@@ -248,7 +248,7 @@ class MiMotion():
     
         # ---------- 2. 计算步数范围 ----------
         try:
-            min_step = math.ceil(int(self.check_item.get("min_step", 10000)) * step_ratio)
+            min_step = math.ceil(int(self.check_item.get("min_step", 18001)) * step_ratio)
             max_step = math.ceil(int(self.check_item.get("max_step", 19999)) * step_ratio)
             if min_step > max_step:
                 min_step, max_step = max_step, min_step
